@@ -1,17 +1,23 @@
 {
   "name": "spoo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web realizada con las tematica de artistas de moda y musical.",
   "main": "index.js",
   "scripts": {
     "style": "sass assets/scss/main.scss assets/css/main.css --watch --style=compressed"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandon-github/SPOO.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandon-github/SPOO/issues"
+  },
+  "homepage": "https://github.com/Brandon-github/SPOO#readme",
   "dependencies": {
-    "bootstrap": "^5.2.0",
-    "jquery": "^3.6.0",
     "sass": "^1.54.4"
   }
 }
