@@ -1,0 +1,17 @@
+{
+  "name": "spoo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass assets/scss/main.scss assets/css/main.css --watch --style=compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "jquery": "^3.6.0",
+    "sass": "^1.54.4"
+  }
+}
