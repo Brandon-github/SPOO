@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SPOO</title>
+  <!-- Bootstrap Styles -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <!-- Main Styles -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg position-fixed w-100">
+    <div class="container">
+      <a class="navbar-brand" href="#">SPOO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero d-flex justify-content-center align-items-center" id="home">
+    <div class="container-fluid text-center d-flex flex-column mb-sm-5">
+      <h1 class="h1 hero__title">spoo</h1>
+      <span class="h3 hero__subtitle">Creative Artists</span>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container d-flex justify-content-center align-content-center gap-4 flex-wrap">
+      <div class="card about__card">
+        <div class="card-body text-center">
+          <img src="./assets/img/card/card1.png" alt="card image" class="card__image" />
+          <div class="card__content position-absolute bottom-0 p-4">
+            <p class="card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="" class="card__link">Details <ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card about__card text-center">
+        <div class="card-body">
+          <img src="./assets/img/card/card2.png" alt="card image" class="card__image" />
+          <div class="card__content position-absolute bottom-0 p-4">
+            <p class="card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="" class="card__link">Details <ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card about__card">
+        <div class="card-body text-center">
+          <img src="./assets/img/card/card3.png" alt="card image" class="card__image" />
+          <div class="card__content position-absolute bottom-0 p-4">
+            <p class="card__paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <a href="" class="card__link">Details <ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="about">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <h2 class="about__title">
+            <span class="about__title-number">01</span>
+            <span class="about__title-text">About us</span>
+          </h2>
+          <p class="about__paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+            enim perferendis veniam et sequi molestiae non eius, corrupti
+            accusantium nemo eum, aut unde. Sunt velit itaque quae assumenda.
+            Eaque, quaerat.
+          </p>
+          <a href="" class="btn btn-primary about__button">More...</a>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="./assets/img/foto.png" class="about__image" alt="image photo" />
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <div class="carrousel">
+        <ul class="carrousel__controls">
+          <li class="carrousel__control active"></li>
+          <li class="carrousel__control"></li>
+          <li class="carrousel__control"></li>
+        </ul>
+        <div class="carrousel__container">
+          <div class="carrousel__item active">
+            <img src="./assets/img/carrousel/carrousel-image1.jpg" alt="carrousel image" class="carrousel__image">
+          </div>
+          <div class="carrousel__item">
+            <img src="./assets/img/carrousel/carrousel-image2.jpg" alt="carrousel image" class="carrousel__image">
+          </div>
+          <div class="carrousel__item">
+            <img src="./assets/img/carrousel/carrousel-image3.jpg" alt="carrousel image" class="carrousel__image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <img src="./assets/img/foto2.jpg" class="about__image" alt="image photo" />
+        </div>
+        <div class="col col-lg-6">
+          <h2 class="about__title">
+            <span class="about__title-number">02</span>
+            <span class="about__title-text">Features</span>
+          </h2>
+          <p class="about__paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+            enim perferendis veniam et sequi molestiae non eius, corrupti
+            accusantium nemo eum, aut unde. Sunt velit itaque quae assumenda.
+            Eaque, quaerat.
+          </p>
+          <p class="about__paragraph">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, aliquid!
+          </p>
+          <a href="" class="btn btn-primary about__button">More...</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery mb-5">
+    <div class="container">
+      <div class="gallery__container">
+        <div class="gallery__row">
+          <img src="./assets/img/gallery/gallery-image1.jpg" alt="gallery image" class="gallery__image">
+          <img src="./assets/img/gallery/gallery-image2.jpg" alt="gallery image" class="gallery__image">
+          <img src="./assets/img/gallery/gallery-image3.jpg" alt="gallery image" class="gallery__image">
+          <img src="./assets/img/gallery/gallery-image4.jpg" alt="gallery image" class="gallery__image">
+          <img src="./assets/img/gallery/gallery-image5.jpg" alt="gallery image" class="gallery__image">
+          <img src="./assets/img/gallery/gallery-image6.jpg" alt="gallery image" class="gallery__image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <h3 class="contact__title">
+          <span class="contact__title-important">o</span>
+          spoo
+        </h3>
+      </div>
+      <div class="row d-flex justify-content-center gap-5 mb-5">
+        <a href="" class="contact__link">
+          <img src="./assets/img/social/behance.svg" class="contact__icon" alt="social image">
+        </a>
+        <a href="" class="contact__link">
+          <img src="./assets/img/social/twitter.svg" class="contact__icon" alt="social image">
+        </a>
+        <a href="" class="contact__link">
+          <img src="./assets/img/social/instagram.svg" class="contact__icon" alt="social image">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--- Bootstrap Scripts -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <!-- Ionicons Scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Jquery Script -->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <!-- Scripts -->
+  <script src="./assets/js/navbar.js"></script>
+  <script src="./assets/js/carrousel.js"></script>
+</body>
+
+</html>
