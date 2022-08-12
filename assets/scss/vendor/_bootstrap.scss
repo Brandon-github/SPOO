@@ -1,0 +1,86 @@
+@use '../util' as c;
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: c.$text-color;
+}
+
+.btn {    
+    &-primary {
+        background-color: c.$bg-secondary;
+        border-color: c.$bg-secondary;
+        padding: 0.5rem 2.2rem;
+
+        &:hover {
+            background-color: c.$bg-secondary-dark;
+            border-color: c.$bg-secondary-dark;
+        }
+    }
+}
+
+.navbar {
+    height: 80px;
+    z-index: 999;
+    transition: .3s linear;
+
+    &.active {
+        background-color: c.$navbar-background;
+    }
+
+    &-brand {
+        font-size: 1.8rem;
+        font-weight: 900;
+        color: c.$text-color;
+        transition: .3s linear;
+    }
+
+    .nav-link {
+        color: c.$text-color;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    &-brand:hover,
+    .nav-link:hover {
+        color: c.$text-secondary;
+    }
+
+    &-toggler,
+    &-toggler:hover,
+    &-toggler:focus {
+        color: c.$text-color;
+        border-style: none;
+        font-size: 2rem;
+        outline: none;
+        border: none;
+    }
+
+    &-nav {
+        display: flex;
+        gap: 3rem;
+    }
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+}
+
+@media (max-width: 991px) {
+    .navbar {
+        &-nav {
+            background-color: c.$navbar-background;
+        }
+    }
+}
+
+
+
+
+
+
+
